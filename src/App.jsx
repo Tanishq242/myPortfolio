@@ -22,7 +22,7 @@ function App() {
         <Projectcomponent
           projectTitle='File Organizer Software'
           projectDescription='Designed a Java-based file organizer that automatically categorizes and sorts files into folders based on their types, improving file management efficiency.'
-          imagePath='public\images\fileorg.png'
+          imagePath='.\images\fileorg.png'
           headTitle='head-title'
           detailDirection='project-detail-right'
           projectPara='projectPara-right'
@@ -30,7 +30,7 @@ function App() {
           BackgroundColorDir='project-content-right'
           projectURL='https://github.com/Tanishq242/File-Flow.git'
           svgIcon={[
-            { id: 1, path: 'public/images/java.svg' }
+            { id: 1, path: './images/java.svg' }
           ]}
           svgPosition='svgList-right'
         />
@@ -40,8 +40,8 @@ function App() {
           imagePath='public\images\chatApp.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
-            { id: 1, path: 'public/images/java.svg' },
-            { id: 2, path: 'public/images/mysql.svg' }
+            { id: 1, path: './images/java.svg' },
+            { id: 2, path: './images/mysql.svg' }
           ]}
         />
         <Projectcomponent
@@ -55,7 +55,7 @@ function App() {
           BackgroundColorDir='project-content-right'
           projectURL='https://github.com/Tanishq242/AVS-python-project.git'
           svgIcon={[
-            { id: 1, path: 'public/images/python.svg' }
+            { id: 1, path: './images/python.svg' }
           ]}
           svgPosition='svgList-right' />
         <Projectcomponent
@@ -64,11 +64,11 @@ function App() {
           imagePath='public\images\mock.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
-            { id: 1, path: 'public/images/html.svg' },
-            { id: 2, path: 'public/images/css3.svg' },
-            { id: 3, path: 'public/images/javascript.svg' },
-            { id: 4, path: 'public/images/php.svg' },
-            { id: 5, path: 'public/images/mysql.svg' }
+            { id: 1, path: './images/html.svg' },
+            { id: 2, path: './images/css3.svg' },
+            { id: 3, path: './images/javascript.svg' },
+            { id: 4, path: './images/php.svg' },
+            { id: 5, path: './images/mysql.svg' }
           ]} />
         <Projectcomponent
           projectTitle='Video Streaming Website'
@@ -80,10 +80,10 @@ function App() {
           imgDirection='project-img-box-right'
           BackgroundColorDir='project-content-right'
           svgIcon={[
-            { id: 1, path: 'public/images/html.svg' },
-            { id: 2, path: 'public/images/css3.svg' },
-            { id: 3, path: 'public/images/javascript.svg' },
-            { id: 4, path: 'public/images/nodejs.svg' }
+            { id: 1, path: './images/html.svg' },
+            { id: 2, path: './images/css3.svg' },
+            { id: 3, path: './images/javascript.svg' },
+            { id: 4, path: './images/nodejs.svg' }
           ]}
           svgPosition='svgList-right' />
       </div>
