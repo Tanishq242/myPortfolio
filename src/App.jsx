@@ -8,7 +8,7 @@ import Aboutpage from './components/aboutpage'
 function App() {
   return (
     <>
-      <Homepage mypic='public\images\mynewpic.png' />
+      <Homepage mypic='./public\images\mynewpic.png' />
       <Aboutpage
         aboutContent='I am a BCA student with hands-on experience in Java and web development. Through academic and personal projects, I have developed strong problem-solving skills and gained practical exposure to real-world application development. I am eager to join an organization where I can apply my technical skills, collaborate with experienced developers, and continue growing as a software professional.'
         frontendSkill='JavaFX, HTML, CSS, React'
