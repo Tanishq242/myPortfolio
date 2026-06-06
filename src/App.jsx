@@ -4,7 +4,7 @@ import Homepage from './components/homepage'
 import Projectcomponent from './components/projectpage'
 import Contactpage from './components/contactpage'
 import Aboutpage from './components/aboutpage'
-import fileImg from "./assets/mynewpic.png";
+import fileImg from './assets/mynewpic.png';
 
 function App() {
   return (
