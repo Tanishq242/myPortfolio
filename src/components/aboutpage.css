@@ -1,0 +1,92 @@
+.about-root {
+  margin-bottom: 10%;
+}
+.about-root > h1 {
+  font-family: "Roboto";
+  background: linear-gradient(90deg, #53eafd 45%, #fd34f3 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-size: 50px;
+}
+
+.about-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 5%;
+}
+
+.about-content {
+  width: 25%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.about-content > p {
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+  font-family: "Roboto";
+}
+
+.skill-content {
+  color: white;
+  font-family: "Roboto";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.skill-content > h3 {
+  margin-bottom: 20px;
+}
+
+.skill-content > ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 15px;
+}
+
+.project-count,
+.resume-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 25%;
+  color: white;
+  font-family: "Roboto";
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border-radius: 20px;
+  padding: 15px;
+  gap: 30px;
+}
+
+.project-count > p {
+  font-size: 55px;
+  font-weight: 300;
+}
+
+.resumeIcon {
+  cursor: pointer;
+  width: 15%;
+  transition: transform 0.3s ease;
+}
+
+.resumeIcon:hover {
+  transform: scale(1.2);
+}

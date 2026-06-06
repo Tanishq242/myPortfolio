@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.homepage-root {
+  background:
+    radial-gradient(circle at 90% 60%, #5573f7 0%, transparent 30%),
+    radial-gradient(circle at 60% 30%, #a855f7 0%, transparent 50%),
+    radial-gradient(circle at 20% 30%, #212730 0%, transparent 50%),
+    radial-gradient(circle at 1% 30%, #2f2fd0 0%, transparent 50%);
+  height: 100vh;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 40%);
+  mask-image: linear-gradient(to top, transparent 0%, black 40%);
+}
+
+.root-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.dev-name {
+  font-family: "Nunito", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+}
+
+.options-list {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  color: white;
+}
+
+.content-root {
+  display: flex;
+  margin-left: 10%;
+}
+
+.content-root h3 {
+  background: linear-gradient(90deg, #53eafd 15%, #fd34f3 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.content-root p {
+  color: white;
+  font-family: "Calibri";
+  font-weight: 100;
+  width: 60%;
+  margin-top: 20px;
+  line-height: 28px;
+}
+
+.content-box,
+.image-box {
+  width: 50%;
+}
+
+.content-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.image-box > img {
+  width: 75%;
+  border-radius: 20px;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 40%);
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 5%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+.options-list > li {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.options-list > li::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  height: 2px;
+  width: 0;
+  background: white;
+  box-shadow:
+    0 0 5px #a855f7,
+    0 0 15px #a855f7,
+    0 0 30px #a855f7;
+
+  left: 50%;
+  transform: translateX(-50%);
+  transition: width 0.4s ease;
+}
+
+.options-list > li:hover::after {
+  width: 100%;
+}

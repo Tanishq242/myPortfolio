@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.footer-root {
+  margin-top: 10%;
+}
+
+.footer-head {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(90deg, #53eafd 45%, #fd34f3 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 80px;
+}
+
+.footerBox {
+  font-family: "Roboto", sans-serif;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  gap: 8%;
+}
+
+.fBox1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: first baseline;
+  padding-left: 50px;
+}
+
+.fBox1 > h2 {
+  color: #53eafd;
+  font-weight: 500;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+.fBox1 > p {
+  color: white;
+  font-family: "Roboto";
+}
+
+.footerDetails {
+  margin-top: 20px;
+  color: white;
+  font-family: "Roboto";
+}
+
+.footerDetails > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footerDetails > ul > li {
+  display: flex;
+  align-items: center;
+}
+
+.footerIcon {
+  width: 28px;
+  height: 28px;
+  padding: 2px;
+  border-radius: 5px;
+  background: linear-gradient(60deg, #53eafd 25%, #fd34f3 90%);
+  margin-right: 10px;
+}
+
+.fBox2 {
+  color: white;
+  font-family: "Roboto";
+  display: flex;
+  width: 25vw;
+}
+
+.tranparentBox {
+  width: 100%;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  height: 35px;
+  border-radius: 5px;
+  border: 0px;
+  background: rgba(255, 255, 255, 0.1);
+  padding-left: 10px;
+  color: rgb(202, 196, 196);
+}
+
+#messageBox {
+  padding: 10px;
+  height: 80px;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 0px;
+  resize: none;
+  color: rgb(202, 196, 196);
+}
+
+.tranparentBox > button {
+  border: 0px;
+  color: white;
+  width: 50%;
+  height: 50px;
+  border-radius: 30px;
+  background: linear-gradient(70deg, #53eafd 20%, #db34fd 90%);
+  cursor: pointer;
+  transform: scale(-10px);
+  transition: all 0.1s ease;
+}
+
+.tranparentBox > button:active {
+  transform: scale(0.95);
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.line > div {
+  background-color: gray;
+  width: 95%;
+  height: 1px;
+}
+
+.footer-last {
+  margin-top: 10px;
+  font-family: "Roboto";
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-last > ul {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.contact-icon {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+}

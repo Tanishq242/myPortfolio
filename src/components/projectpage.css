@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+.project-root {
+  color: white;
+  height: fit-content;
+}
+
+.project-root>h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background: linear-gradient(90deg, #53eafd 45%, #fd34f3 55%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-root>p {
+  font-family: "Calibri";
+  font-weight: 300;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.project-content {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  /* background-color: red; */
+}
+
+.project-detail {
+  width: 30%;
+  position: absolute;
+  left: 20%;
+  z-index: 1;
+}
+
+#head-title {
+  text-align: end;
+}
+
+#project-content-left {
+  background: radial-gradient(ellipse at 65% 50%, #a855f7 0%, transparent 40%);
+}
+
+#project-content-right {
+  background: radial-gradient(ellipse at 40% 50%, #6d55f7 0%, transparent 40%);
+}
+
+#project-detail-left {
+  left: 20%;
+}
+
+#project-detail-right {
+  left: 50%;
+}
+
+.project-detail>p {
+  color: #53eafd;
+}
+
+.project-detail>h2 {
+  font-family: "Calibri";
+  font-size: 35px;
+}
+
+.project-description {
+  font-family: "Roboto", sans-serif;
+  line-height: 25px;
+  width: 100%;
+  padding: 20px 80px 20px 20px;
+  margin-top: 30px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+}
+
+#projectPara-left {
+  padding: 20px 80px 20px 20px;
+}
+
+#projectPara-right {
+  padding: 20px 20px 20px 80px;
+}
+
+.project-img-box {
+  position: absolute;
+  right: 21%;
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#project-img-box-left {
+  right: 21%;
+}
+
+#project-img-box-right {
+  right: 49%;
+}
+
+.project-img-box > a > img {
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.svgList {
+  margin-top: 15px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.svgIcon {
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.svgIcon:hover {
+  transform: scale(1.3);
+  z-index: 1;
+}
+
+.projectPic {
+  position: relative;
+  transform: scale(1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.projectPic:hover {
+  
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+#svgList-right {
+  display: flex;
+  justify-content: end;
+  align-items: baseline;
+}
+
+.svgList li {
+  margin-right: 15px;
+}
