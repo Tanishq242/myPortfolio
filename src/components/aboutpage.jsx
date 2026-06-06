@@ -23,7 +23,7 @@ const aboutpage = (props) => {
                 </div>
                 <div className='resume-box'>
                     <h3>My Resume</h3>
-                    <div><a href="https://drive.google.com/file/d/1aC3XIR--_7l4B8DXEYoIAuEZDfkEzmd8/view?usp=sharing" target='_blank'><img src="src/assets/pdf.svg" alt="" className='resumeIcon' /></a></div>
+                    <div><a href="https://drive.google.com/file/d/1aC3XIR--_7l4B8DXEYoIAuEZDfkEzmd8/view?usp=sharing" target='_blank'><img src="./images/pdf.svg" alt="" className='resumeIcon' /></a></div>
                 </div>
             </div>
         </div>
