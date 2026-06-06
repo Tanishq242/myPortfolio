@@ -37,17 +37,17 @@ function App() {
         <Projectcomponent
           projectTitle='Secure Chat Software'
           projectDescription='Implemented full stack java message software maintaining security and privacy and working on client-server architecture. This project having unique features that make it different from traditional message software.'
-          imagePath='public\images\chatApp.png'
+          imagePath='.\images\chatApp.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
-            { id: 1, path: '.\images\java.svg' },
-            { id: 2, path: '.\images\mysql.svg' }
+            { id: 1, path: './images/java.svg' },
+            { id: 2, path: './images/mysql.svg' }
           ]}
         />
         <Projectcomponent
           projectTitle='Algorithm Visualizer Software'
           projectDescription='Designed a GUI-based tool to visualize algorithms like searching, sorting and scheduling in real-time using Python. Helps students understand algorithm flow step-by-step.'
-          imagePath='public\images\avs.png'
+          imagePath='.\images\avs.png'
           headTitle='head-title'
           detailDirection='project-detail-right'
           projectPara='projectPara-right'
@@ -61,7 +61,7 @@ function App() {
         <Projectcomponent
           projectTitle='Mock Test Website'
           projectDescription='Implemented full stack mock test website with dynamic result generation. UI is developed using HTML, CSS and JS and backend powered by PHP and MySQL database with user data handling.'
-          imagePath='public\images\mock.png'
+          imagePath='.\images\mock.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
             { id: 1, path: './images/html.svg' },
@@ -73,7 +73,7 @@ function App() {
         <Projectcomponent
           projectTitle='Video Streaming Website'
           projectDescription='Implemented a responsive web interface for browsing and playing media on PCs, smartphones, and smart TVs.'
-          imagePath='public\images\stream.png'
+          imagePath='.\images\stream.png'
           headTitle='head-title'
           detailDirection='project-detail-right'
           projectPara='projectPara-right'
