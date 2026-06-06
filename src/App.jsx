@@ -8,7 +8,7 @@ import Aboutpage from './components/aboutpage'
 function App() {
   return (
     <>
-      <Homepage mypic='./assets/mynewpic.png' />
+      <Homepage mypic='public\images\mynewpic.png' />
       <Aboutpage
         aboutContent='I am a BCA student with hands-on experience in Java and web development. Through academic and personal projects, I have developed strong problem-solving skills and gained practical exposure to real-world application development. I am eager to join an organization where I can apply my technical skills, collaborate with experienced developers, and continue growing as a software professional.'
         frontendSkill='JavaFX, HTML, CSS, React'
@@ -22,7 +22,7 @@ function App() {
         <Projectcomponent
           projectTitle='File Organizer Software'
           projectDescription='Designed a Java-based file organizer that automatically categorizes and sorts files into folders based on their types, improving file management efficiency.'
-          imagePath='src\assets\fileorg.png'
+          imagePath='public\images\fileorg.png'
           headTitle='head-title'
           detailDirection='project-detail-right'
           projectPara='projectPara-right'
@@ -30,24 +30,24 @@ function App() {
           BackgroundColorDir='project-content-right'
           projectURL='https://github.com/Tanishq242/File-Flow.git'
           svgIcon={[
-            { id: 1, path: './src/assets/java.svg' }
+            { id: 1, path: 'public/images/java.svg' }
           ]}
           svgPosition='svgList-right'
         />
         <Projectcomponent
           projectTitle='Secure Chat Software'
           projectDescription='Implemented full stack java message software maintaining security and privacy and working on client-server architecture. This project having unique features that make it different from traditional message software.'
-          imagePath='src\assets\chatApp.png'
+          imagePath='public\images\chatApp.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
-            { id: 1, path: './src/assets/java.svg' },
-            { id: 2, path: './src/assets/mysql.svg' }
+            { id: 1, path: 'public/images/java.svg' },
+            { id: 2, path: 'public/images/mysql.svg' }
           ]}
         />
         <Projectcomponent
           projectTitle='Algorithm Visualizer Software'
           projectDescription='Designed a GUI-based tool to visualize algorithms like searching, sorting and scheduling in real-time using Python. Helps students understand algorithm flow step-by-step.'
-          imagePath='src\assets\avs.png'
+          imagePath='public\images\avs.png'
           headTitle='head-title'
           detailDirection='project-detail-right'
           projectPara='projectPara-right'
@@ -55,35 +55,35 @@ function App() {
           BackgroundColorDir='project-content-right'
           projectURL='https://github.com/Tanishq242/AVS-python-project.git'
           svgIcon={[
-            { id: 1, path: './src/assets/python.svg' }
+            { id: 1, path: 'public/images/python.svg' }
           ]}
           svgPosition='svgList-right' />
         <Projectcomponent
           projectTitle='Mock Test Website'
           projectDescription='Implemented full stack mock test website with dynamic result generation. UI is developed using HTML, CSS and JS and backend powered by PHP and MySQL database with user data handling.'
-          imagePath='src\assets\mock.png'
+          imagePath='public\images\mock.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
-            { id: 1, path: './src/assets/html.svg' },
-            { id: 2, path: './src/assets/css3.svg' },
-            { id: 3, path: './src/assets/javascript.svg' },
-            { id: 4, path: './src/assets/php.svg' },
-            { id: 5, path: './src/assets/mysql.svg' }
+            { id: 1, path: 'public/images/html.svg' },
+            { id: 2, path: 'public/images/css3.svg' },
+            { id: 3, path: 'public/images/javascript.svg' },
+            { id: 4, path: 'public/images/php.svg' },
+            { id: 5, path: 'public/images/mysql.svg' }
           ]} />
         <Projectcomponent
           projectTitle='Video Streaming Website'
           projectDescription='Implemented a responsive web interface for browsing and playing media on PCs, smartphones, and smart TVs.'
-          imagePath='src\assets\stream.png'
+          imagePath='public\images\stream.png'
           headTitle='head-title'
           detailDirection='project-detail-right'
           projectPara='projectPara-right'
           imgDirection='project-img-box-right'
           BackgroundColorDir='project-content-right'
           svgIcon={[
-            { id: 1, path: './src/assets/html.svg' },
-            { id: 2, path: './src/assets/css3.svg' },
-            { id: 3, path: './src/assets/javascript.svg' },
-            { id: 4, path: './src/assets/nodejs.svg' }
+            { id: 1, path: 'public/images/html.svg' },
+            { id: 2, path: 'public/images/css3.svg' },
+            { id: 3, path: 'public/images/javascript.svg' },
+            { id: 4, path: 'public/images/nodejs.svg' }
           ]}
           svgPosition='svgList-right' />
       </div>
