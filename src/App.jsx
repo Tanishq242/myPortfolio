@@ -40,8 +40,8 @@ function App() {
           imagePath='public\images\chatApp.png'
           BackgroundColorDir='project-content-left'
           svgIcon={[
-            { id: 1, path: './images/java.svg' },
-            { id: 2, path: './images/mysql.svg' }
+            { id: 1, path: '.\images\java.svg' },
+            { id: 2, path: '.\images\mysql.svg' }
           ]}
         />
         <Projectcomponent
