@@ -1,16 +1,79 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website! This project showcases my skills, projects, experience, and interests as a developer.
 
-Currently, two official plugins are available:
+## Link: https://my-portfolio-alpha-henna-86.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* Responsive design for desktop and mobile devices
+* About Me section
+* Projects showcase
+* Skills and technologies
+* Contact information
+* Clean and modern UI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* HTML
+* CSS
+* JavaScript
+* React (if applicable)
+* Tailwind CSS (if applicable)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│   └── App.js
+├── package.json
+└── README.md
+```
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/portfolio.git
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd portfolio
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+## 🌐 Live Demo
+
+Visit the live website here:
+
+[Portfolio Website](https://your-portfolio-link.com)
+
+## 📫 Contact
+
+Feel free to reach out:
+
+* Email: [kumar.tanishq081@gmail.com](mailto:your.email@example.com)
+* LinkedIn: www.linkedin.com/in/tanishq-442a29339
+
+## 📄 License
+
+This project is open source and available under the MIT License.
