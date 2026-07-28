@@ -24,11 +24,11 @@
 
 .project-content {
   display: flex;
-  font-family: "Roboto", sans-serif;
   justify-content: center;
   align-items: center;
-  height: 50vh;
-  /* background-color: red; */
+  gap: 4rem;
+  padding: 5rem 8%;
+  position: relative;
 }
 
 .project-detail {
@@ -105,7 +105,7 @@
   right: 49%;
 }
 
-.project-img-box > a > img {
+.project-img-box>a>img {
   border-radius: 20px;
   width: 100%;
   height: 100%;
@@ -136,7 +136,7 @@
 }
 
 .projectPic:hover {
-  
+
   transform: scale(1.1);
   z-index: 1;
 }
@@ -149,4 +149,81 @@
 
 .svgList li {
   margin-right: 15px;
+}
+
+.project-detail,
+.project-img-box {
+  position: static;
+  flex: 1;
+  max-width: 550px;
+}
+
+.project-img-box {
+  height: auto;
+}
+
+.projectPic {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+  .project-content {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 3rem 1.5rem;
+    height: auto;
+  }
+
+  .project-detail,
+  .project-img-box {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .project-detail {
+    text-align: center;
+  }
+
+  .project-detail h2 {
+    font-size: 2rem;
+  }
+
+  .project-description {
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  #projectPara-left,
+  #projectPara-right {
+    padding: 20px;
+  }
+
+  .project-img-box {
+    order: 1;
+  }
+
+  .project-detail {
+    order: 2;
+  }
+
+  .projectPic {
+    width: 100%;
+    height: auto;
+  }
+
+  .svgList {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #svgList-right {
+    justify-content: center;
+  }
+
+  #head-title {
+    text-align: center;
+  }
 }
