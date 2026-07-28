@@ -3,3 +3,9 @@ h1 {
   font-family: "Roboto", sans-serif;
   font-size: 120px;
 }
+
+@media(max-width: 768px) {
+  h1 {
+    font-size: 3vh;
+  }
+}
