@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .footer-root {
-  margin-top: 10%;
+  margin-top: 30%;
 }
 
 .footer-head {
@@ -12,7 +12,7 @@
   background: linear-gradient(90deg, #53eafd 45%, #fd34f3 55%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
 }
 
 .footerBox {
