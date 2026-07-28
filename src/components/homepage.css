@@ -21,9 +21,26 @@
 
 .dev-name {
   font-family: "Nunito", sans-serif;
-  font-size: 45px;
-  font-weight: 600;
-  color: white;
+  font-size: clamp(2.8rem, 6vw, 4.5rem);
+  font-weight: 900;
+
+  background: linear-gradient(90deg,
+      #53eafd,
+      #7b61ff,
+      #fd34f3,
+      #53eafd);
+
+  background-size: 300%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradientMove 5s linear infinite;
+}
+
+@keyframes gradientMove {
+  to {
+    background-position: 300%;
+  }
 }
 
 .options-list {
@@ -69,26 +86,30 @@
   justify-content: center;
 }
 
-.image-box > img {
+.image-box>img {
   width: 75%;
   border-radius: 20px;
   -webkit-mask-image: linear-gradient(to top, transparent 0%, black 40%);
-  mask-image: linear-gradient(
-    to bottom,
-    transparent 0%,
-    black 5%,
-    black 90%,
-    transparent 100%
-  );
+  mask-image: linear-gradient(to bottom,
+      transparent 0%,
+      black 5%,
+      black 90%,
+      transparent 100%);
 }
 
-.options-list > li {
+.options-list>li {
   position: relative;
   display: inline-block;
   cursor: pointer;
+  color: white;
+  transition: color 0.3s ease;
 }
 
-.options-list > li::after {
+.options-list>li:hover {
+  color: #53eafd;
+}
+
+.options-list>li::after {
   content: "";
   position: absolute;
   bottom: -4px;
@@ -105,6 +126,65 @@
   transition: width 0.4s ease;
 }
 
-.options-list > li:hover::after {
+.options-list>li:hover::after {
   width: 100%;
+}
+
+@media (max-width: 768px) {
+  .root-navbar {
+    display: block;
+    padding: 10px;
+  }
+
+  .dev-name {
+    font-size: 3vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .options-list {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 0;
+    font-size: 2.5vh;
+    margin-top: 10px;
+  }
+
+  .content-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+  }
+
+  .content-box {
+    width: 100%;
+  }
+
+  .content-box>h1 {
+    text-align: center;
+  }
+
+  .content-box>h3 {
+    font-size: 4.5vh;
+    text-align: center;
+  }
+
+  .content-box>p {
+    text-align: center;
+    width: 100%;
+  }
+
+  .image-box {
+    order: 1;
+  }
+
+  .content-box {
+    order: 2;
+  }
+
+  .image-box>img {
+    width: 100%;
+  }
+
 }
