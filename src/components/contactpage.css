@@ -170,11 +170,23 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: first baseline;
-    padding: 0px;
+    padding: 10px;
+  }
+
+  .fBox1>h2 {
+    font-size: 25px;
+  }
+
+  .fBox1 > p {
+    font-size: 11px;
   }
 
   .fBox2 {
     width: 90%;
+  }
+
+  .footerDetails {
+    font-size: 12px;
   }
 
   .tranparentBox {
