@@ -159,6 +159,10 @@ input {
 }
 
 @media(max-width: 768px) {
+  .footer-root {
+  margin-top: 30%;
+}
+  
   .footerBox {
     flex-direction: column;
     align-items: center;
