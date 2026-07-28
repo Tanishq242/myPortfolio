@@ -54,9 +54,9 @@ const contactpage = () => {
                         <br />If you think we can work together, feel free to reach out!</p>
                     <div className="footerDetails">
                         <ul>
-                            <li><img src="src/assets/phone.svg" alt="" width='20px' className='footerIcon' />+91 9953744795</li>
-                            <li><img src="src/assets/mail.svg" alt="" width='20px' className='footerIcon' />kumar.tanishq081@gmail.com</li>
-                            <li><img src="src/assets/location.svg" alt="" width='20px' className='footerIcon' />Raj Nagar - 2, Palam Colony, New Delhi - 77</li>
+                            <li><img src="public/images/phone.svg" alt="" width='20px' className='footerIcon' />+91 9953744795</li>
+                            <li><img src="public/images/mail.svg" alt="" width='20px' className='footerIcon' />kumar.tanishq081@gmail.com</li>
+                            <li><img src="public/images/location.svg" alt="" width='20px' className='footerIcon' />Raj Nagar - 2, Palam Colony, New Delhi - 77</li>
                         </ul>
                     </div>
                 </div>
