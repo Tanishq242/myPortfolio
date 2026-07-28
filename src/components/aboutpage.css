@@ -90,3 +90,12 @@
 .resumeIcon:hover {
   transform: scale(1.2);
 }
+
+@media(max-width: 768px) {
+  .about-content,
+  .skill-content,
+  .project-count,
+  .resume-box {
+    width: 85%;
+  }
+}
