@@ -28,11 +28,11 @@ function App() {
           projectPara='projectPara-right'
           imgDirection='project-img-box-right'
           BackgroundColorDir='project-content-right'
-          projectURL='https://github.com/Tanishq242/File-Flow.git'
+          projectURL='https://github.com/Tanishq242/taskFlow.git'
           svgIcon={[
             { id: 1, path: './images/react.svg' },
             { id: 2, path: './images/nodejs.svg' },
-            { id: 3, path: './images/sqlite.svg'}
+            { id: 3, path: './images/sqlite.svg' }
           ]}
           svgPosition='svgList-right'
         />
