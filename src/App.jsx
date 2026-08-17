@@ -30,7 +30,9 @@ function App() {
           BackgroundColorDir='project-content-right'
           projectURL='https://github.com/Tanishq242/File-Flow.git'
           svgIcon={[
-            { id: 1, path: './images/java.svg' }
+            { id: 1, path: './images/react.svg' }
+            { id: 2, path: './images/nodejs.svg' }
+            { id: 3, path: './images/sqlite.svg'}
           ]}
           svgPosition='svgList-right'
         />
