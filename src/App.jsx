@@ -15,10 +15,25 @@ function App() {
         backendSkill='Java, Python, JavaScript, Php, Node.js, Express.js'
         databaseSkill='MySql, MongoDB'
         vcsSkill='Git and Github'
-        projectCount='4' />
+        projectCount='5' />
       <div className="project-root" id='project'>
         <h1>Recent Work</h1>
         <p>A collection of projects I've worked on.</p>
+        <Projectcomponent
+          projectTitle='TaskFlow'
+          projectDescription='Full-stack task management application inspired by Trello, allowing users to create, edit, delete, and manage tasks across different workflow columns such as To Do, In Progress, and Done. The application uses a React frontend with a Node.js backend and a relational database for persistent data storage.'
+          imagePath='.\images\taskflow.png'
+          headTitle='head-title'
+          detailDirection='project-detail-right'
+          projectPara='projectPara-right'
+          imgDirection='project-img-box-right'
+          BackgroundColorDir='project-content-right'
+          projectURL='https://github.com/Tanishq242/File-Flow.git'
+          svgIcon={[
+            { id: 1, path: './images/java.svg' }
+          ]}
+          svgPosition='svgList-right'
+        />
         <Projectcomponent
           projectTitle='File Organizer Software'
           projectDescription='Designed a Java-based file organizer that automatically categorizes and sorts files into folders based on their types, improving file management efficiency.'
